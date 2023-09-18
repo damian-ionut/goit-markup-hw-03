@@ -381,6 +381,7 @@ button:focus {
     font-weight: 400;
     font-size: 14px;
     color: #FFFFFF;
+    font-style: normal;
 }
 
 .address_contact {
