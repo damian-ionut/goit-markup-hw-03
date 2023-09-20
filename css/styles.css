@@ -20,7 +20,8 @@ body {
     justify-content: space-between;
     font-weight: 700;
     font-size: 26px;
-    font-family: var(--secondary-font)
+    font-family: var(--secondary-font);
+    margin-bottom: 20px;
 }
 
 .menu_header {
@@ -75,8 +76,14 @@ body {
     padding: 20px;
 }
 
-.nav_item_list a:hover {
-    color: var(--secondary-color)
+.current{
+    color:#188ce8;
+}
+
+
+.nav_item_list a:hover,
+.nav_item_list a:focus {
+    color: var(--secondary-color);
 }
 
 .contact_item {
@@ -87,13 +94,8 @@ body {
     padding-bottom: 20px;
 }
 
-.contact_item_list a:hover,
-.contact_item_list a:focus {
+.contact_item_list a:hover {
     color: var(--secondary-color);
-}
-
-.current {
-    color: #188ce8;
 }
 
 .contact_item_list {
@@ -305,7 +307,7 @@ ul.team_qualities {
 }
 
 .button_portofolio button{
-    display: block;
+    display:block;
     font-family: var(--primary-font);
     font-weight: 500;
     line-height: 38px;
@@ -315,6 +317,7 @@ ul.team_qualities {
     padding: 6px 22px;
     border: 1px solid transparent;
     border-radius: 4px;
+    margin-bottom: 50px;
 }
 
 button:hover,
@@ -322,16 +325,7 @@ button:focus {
     font-family: var(--primary-font);
     color: #fff;
     background-color: var(--secondary-color);
-    border-style: none;
-    border-radius: 4px;
-    font-weight: 500;
-    line-height: 38px;
-    letter-spacing: 0.03em;
-    font-size: 16px;
-    border-radius: 4px;
-    justify-content: center;
 }
-
 
 .portofolio_name {
     font-family: var(--primary-font);
@@ -371,8 +365,11 @@ button:focus {
     padding-left: 215px;
 }
 
+.all_footer {
+    padding: 60px 0;
+}
+
 .main_logo {
-    margin-bottom: 28px;
     margin-left: 31px;
 }
 
@@ -406,3 +403,17 @@ a{
 button {
     cursor: pointer;
 }
+
+
+
+
+/* 
+
+1. Footerul nu ajunge pana jos, Arata dubios. - DONE
+
+2. Efectul de hover pe Request our service nu e asa in design - DONE
+
+3. N ai current pe linkurile din navigatie.
+
+4. La hover pe butoanele din portofolio se intampla o chestie dubioasa, 
+se redimensioneaza ceva si se muta putin - DONE*/
