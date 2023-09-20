@@ -80,7 +80,6 @@ body {
     color:#188ce8;
 }
 
-
 .nav_item_list a:hover,
 .nav_item_list a:focus {
     color: var(--secondary-color);
