@@ -16,7 +16,6 @@ body {
 
 .main_logo {
     display: flex;
-    align-items: center;
     justify-content: space-between;
     font-weight: 700;
     font-size: 26px;
@@ -29,6 +28,8 @@ body {
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid #ececec;
+    margin-left: 215px;
+    border: none;
 }
 
 .nav_item_list {
@@ -91,6 +92,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding-bottom: 20px;
+    margin-right: 100px;
 }
 
 .contact_item_list a:hover {
@@ -334,6 +336,8 @@ button:focus {
     text-align: center;
     line-height: 2.25;
     text-align: left;
+    margin-bottom: 4px;
+    margin-left: 24px;
 }
 .portofolio_text {
     font-family: var(--primary-font);
@@ -343,6 +347,7 @@ button:focus {
     text-align: center;
     line-height: 1.87;
     text-align: left;
+    margin-left: 24px;
 }
 
 .portofolio_list {
